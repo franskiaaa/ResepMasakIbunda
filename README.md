@@ -1,56 +1,69 @@
-# Welcome to your Expo app 👋
+# Tugas 2 — Resep Masakan Ibunda
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Repository ini dibuat sebagai pengumpulan **Tugas 2** pada mata kuliah **Pemrograman Perangkat Bergerak**.
 
-## Get started
+## Identitas
 
-1. Install dependencies
+* **Nama:** Franskia Muji Irsadianto
+* **NIM:** 2415344015
+* **Program Studi:** Teknik Otomasi
+* **Jurusan:** Teknik Elektro
+* **Mata Kuliah:** Pemrograman Perangkat Bergerak
 
-   ```bash
-   npm install
-   ```
+## Deskripsi
 
-2. Start the app
+**Resep Masakan Ibunda** merupakan aplikasi mobile yang dibuat untuk menampilkan informasi mengenai berbagai resep masakan. Aplikasi ini dikembangkan sebagai bagian dari tugas pada mata kuliah Pemrograman Perangkat Bergerak.
 
-   ```bash
-   npx expo start
-   ```
+## Teknologi yang Digunakan
 
-In the output, you'll find options to open the app in a
+* React Native
+* Expo
+* TypeScript
+* Expo Router
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+## Fitur
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+* Menampilkan daftar resep masakan
+* Menampilkan informasi/detail resep
+* Navigasi antar halaman
+* Tampilan antarmuka aplikasi mobile
 
-## Get a fresh project
+## Struktur Project
 
-When you're ready, run:
-
-```bash
-npm run reset-project
+```text
+ResepMasakIbunda/
+├── src/
+├── assets/
+├── package.json
+├── app.json
+└── ...
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Cara Menjalankan Project
 
-### Other setup steps
+Pastikan Node.js dan Expo sudah terinstall, kemudian jalankan:
 
-- To set up ESLint for linting, run `npx expo lint`, or follow our guide on ["Using ESLint and Prettier"](https://docs.expo.dev/guides/using-eslint/)
-- If you'd like to set up unit testing, follow our guide on ["Unit Testing with Jest"](https://docs.expo.dev/develop/unit-testing/)
-- Learn more about the TypeScript setup in this template in our guide on ["Using TypeScript"](https://docs.expo.dev/guides/typescript/)
+```bash
+npm install
+```
 
-## Learn more
+Setelah proses instalasi selesai:
 
-To learn more about developing your project with Expo, look at the following resources:
+```bash
+npx expo start
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Project dapat dijalankan menggunakan emulator, perangkat Android/iOS, atau Expo Go sesuai konfigurasi yang digunakan.
 
-## Join the community
+## Dokumentasi
 
-Join our community of developers creating universal apps.
+Screenshot dan hasil implementasi aplikasi dapat dilihat pada laporan tugas.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Repository
+
+Source code lengkap tugas ini tersedia pada repository GitHub ini.
+
+---
+
+**Tugas 2 — Pemrograman Perangkat Bergerak**
+Politeknik Negeri Bali
